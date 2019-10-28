@@ -11,3 +11,14 @@ body{
   background: var(--mainWhite);
   color: var(--mainDark);
 }
+
+.text-title{
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-blue{
+  color: var(--mainBlue);
+}
+.text-light-blue{
+  color:var(--lightBlue);
+}
