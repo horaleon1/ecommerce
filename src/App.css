@@ -1,24 +1,33 @@
-:root{
-  --mainBlue:#2a2a72;
-  --lightBlue:#009ffd;
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
   --mainWhite: #f3f3f3;
-  --mainDark:#232528;
-  --mainYellow:#ffa400;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
 }
-
-body{
+body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: var(--mainWhite);
   color: var(--mainDark);
 }
-
-.text-title{
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.text-title {
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
-.text-blue{
+.text-blue {
   color: var(--mainBlue);
 }
-.text-light-blue{
-  color:var(--lightBlue);
+.text-light-blue {
+  color: var(--lightBlue);
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
